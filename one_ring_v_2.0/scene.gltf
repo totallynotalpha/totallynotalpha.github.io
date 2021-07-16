@@ -1,0 +1,295 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1404,
+      "max": [
+        259.68161010742188,
+        131.27670288085938,
+        24.496999740600586
+      ],
+      "min": [
+        -8.793299674987793,
+        -136.66850280761719,
+        -24.496999740600586
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16848,
+      "componentType": 5126,
+      "count": 1404,
+      "max": [
+        1,
+        0.99802607297897339,
+        0.99609184265136719
+      ],
+      "min": [
+        -1,
+        -0.99802607297897339,
+        -0.99609184265136719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1404,
+      "max": [
+        0.99607646465301514,
+        0.99592971801757812,
+        1,
+        1
+      ],
+      "min": [
+        -0.99607753753662109,
+        -0.99577152729034424,
+        -0.99219512939453125,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1404,
+      "max": [
+        0.74309998750686646,
+        0.99800002574920654
+      ],
+      "min": [
+        0.0020000000949949026,
+        0.0020000000949949026
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7500,
+      "max": [
+        1403
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Airmaster (https://sketchfab.com/Airmaster)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/26d8d5ea1f5e45199dc2a60641ad0c31",
+      "title": "One Ring v 2.0"
+    },
+    "generator": "Sketchfab-3.19.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 30000,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11232,
+      "byteOffset": 30000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 33696,
+      "byteOffset": 41232,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 22464,
+      "byteOffset": 74928,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 97392,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/01___Default_emissive.png"
+    },
+    {
+      "uri": "textures/01___Default_diffuse.png"
+    },
+    {
+      "uri": "textures/01___Default_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/01___Default_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 1,
+            "texCoord": 0
+          },
+          "glossinessFactor": 1,
+          "specularFactor": [
+            1,
+            1,
+            1
+          ],
+          "specularGlossinessTexture": {
+            "index": 2,
+            "texCoord": 0
+          }
+        }
+      },
+      "name": "01___Default",
+      "normalTexture": {
+        "index": 3,
+        "scale": 1,
+        "texCoord": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.92051929235458374,
+        0.35462817549705505,
+        0.16396068036556244,
+        0,
+        -0.35949325561523438,
+        0.93314766883850098,
+        -1.1300000046787773e-08,
+        0,
+        -0.15299953520298004,
+        -0.058942750096321106,
+        0.98646688461303711,
+        0,
+        9.0011940002441406,
+        -44.666149139404297,
+        -20.567855834960938,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "�������������� ������ ������.obj.cleaner.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
+
